@@ -1,0 +1,136 @@
+body {
+    background-color: #9f9f9f;
+    color: #313131;
+    font-family:Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+#wrapper {
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#d3980d;
+        background-image: linear-gradient(to bottom, #c60000,#d3980d);
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 3px 3px 3px #333333;
+        border: 1px solid #000000;
+}
+header {
+    background-color: #d3980d;
+    color: #b5b5b5;
+    height: 120px;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 3em;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0%;
+    font-size: 1.2em; 
+}
+main {
+    background-color: #b5b5b5;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display:block;
+    margin-left: 190px;
+    overflow: auto;
+}
+h2 {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+dt {
+    color: #f4f400;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: .25em;
+}
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+main ul {
+    list-style-image: url(marker.gif);
+}
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style:italic;
+    padding:2em;
+    margin-left: 190px;
+    background-color: #b5b5b5;
+
+}
+#contact {
+    font-size: 90%;
+}
+#pizzanation {
+    height: 400px;
+    background-image: url("modernist-pizza-travel-restricted.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+nav {
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+    font-weight: bold;
+}
+table {
+    border: 5px solid #9f9f9f;
+    background-color: #46e9ffd8;
+    
+}
+td, th{
+    padding: .5em;
+    border: 5px solid #46e9ffd8;
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+#special {
+    clear: both;
+}
+label {
+    float:left;
+    display:block;
+    text-align:right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display:block;
+    margin-bottom: 20px;   
+}
+textarea {
+    display:block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
